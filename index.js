@@ -25,7 +25,7 @@ hexo.extend.filter.register('before_post_render', function(data) {
         `<script type="module">\n` +
             `document.getElementById("coliru-${uuid}").addEventListener("click", function() {\n` +
                 `var http = new XMLHttpRequest();\n` +
-                `http.open("POST", "http://coliru.stacked-crooked.com/compile", true);\n` +
+                `http.open("POST", "https://coliru.stacked-crooked.com/compile", true);\n` +
                 `http.onload = function (e) {\n` +
                     `if (http.readyState === 4 && http.status === 200) {\n` +
                         `document.getElementById("results-${uuid}").value = String(http.response);\n` +
