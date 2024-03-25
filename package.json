@@ -1,6 +1,6 @@
 {
   "name": "hexo-coliru",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A hexo plugin to run code via coliru.",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,10 @@
     "plugin",
     "coliru"
   ],
+  "repository": {
+	"type": "git",
+	"url": "git+https://github.com/SpriteMisaka/hexo-coliru.git"
+  },
   "author": "SpriteMisaka",
   "license": "MIT"
 }
